@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.parkpickup">
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD2-STV-j7zVa_F9bnEh3pwI__JWdvIPcQ" />
+    </application>
+
+</manifest>
